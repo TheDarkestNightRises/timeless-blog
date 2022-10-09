@@ -1,5 +1,46 @@
 # TheTimelessBlog
 
+A blog made in flask using the clean blog template from
+bootstrap.
+
+## Installation
+Configure enviromental variables and install flask
+## Flask
+install flask 
+```bash
+ pip install flask
+```
+
+Configure a email bot account to send emails.
+This could be for example a gmail account.
+Make a configInfo.py in the project containing your 
+enviroment variables.
+
+```python
+ EMAIL_ADDRESS = "";
+ EMAIL_PASSWORD = "";
+ CONTACT_EMAIL = "";
+ API="";
+```
+You can make your own api on npoint
+
+
+
+    
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+`EMAIL_ADDRESS`
+
+`EMAIL_PASSWORD`
+
+`CONTACT_EMAIL`
+
+`API`
+
+
+
 ## Aplication Screenshoots:
 
 ![image](https://user-images.githubusercontent.com/91905169/194759153-c8fdc027-0878-48b1-bf73-69280e9049be.png)
